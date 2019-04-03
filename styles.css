@@ -123,9 +123,6 @@ html {
 }
 
 #koistudio {
-    background-image: url(img/koistudio.jpg);
-    background-size: 160%;
-    background-position: top center;
     height: 300px;
     width: 300px;
     margin: auto;
@@ -147,7 +144,6 @@ h2 {
 }
 
 #ekho {
-    background-position: center;
     height: 300px;
     width: 300px;
     margin: auto;
@@ -187,19 +183,19 @@ h2 {
     border-radius: 2em;
     color: #FFF;
     margin: 20px;
-    word-spacing: 2em;
-    text-align: left;
+    word-spacing: 1em;
+    margin-bottom: 30px;
+}
+
+#instagram a {
+    margin-bottom: 20px;
 }
 
 
 #instagram img{
     height: 50px;
+    margin-top: 10px;
     
-}
-
-#instagram a {
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 
@@ -208,10 +204,13 @@ h2 {
     border-radius: 2em;
     color: #FFF;
     margin: 20px;
+    word-spacing: 1em;
+    margin-bottom: 30px;
 }
 
 #email img{
     height: 50px;
+    margin-top: 10px;
 }
 
 
