@@ -29,12 +29,17 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
+    width: auto;
 }
 
 .logo img{
     width: auto;
     height: 50px;
     
+}
+
+.nav h1 {
+    font-size: 1rem;
 }
 
 .links {
@@ -167,7 +172,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
-    margin-bottom: 70px;
+   
     color: #80adff;
     text-align: center;
 }
@@ -186,7 +191,7 @@ h2 {
     margin-top: 80px;
 }
 
-#instagram img{
+#instagram {
     grid-column: 1/2;
     background-color: #80adff;
     border-radius: 2em;
@@ -199,9 +204,10 @@ h2 {
 }
 
 
-#email img{
+#email {
     grid-column: 2/3;
     background-color: #80adff;
+    border-radius: 2em;
     color: #FFF;
 }
 
