@@ -26,6 +26,7 @@ html {
 .nav {
     position: fixed;
     background-color: #f4f6fe;
+    width: 1000px; 
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
@@ -81,10 +82,6 @@ html {
 }
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
 
 #artgallery {
     display: grid;
@@ -129,7 +126,6 @@ html {
     background-image: url(img/koistudio.jpg);
     background-size: 160%;
     background-position: top center;
-    filter: blur(3px);
     height: 300px;
     width: 300px;
     margin: auto;
@@ -151,9 +147,7 @@ h2 {
 }
 
 #ekho {
-    background-image: url(img/ekho.jpg);
     background-position: center;
-    filter: blur(3px);
     height: 300px;
     width: 300px;
     margin: auto;
@@ -164,8 +158,6 @@ h2 {
 
 #contact {
     height: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 20px;
     margin-bottom: 70px;
     color: #80adff;
@@ -180,29 +172,42 @@ h2 {
 }
 
 #contact h1 {
-    grid-column: 1/3;
     height: 50px;
     margin-bottom: 80px;
     margin-top: 80px;
 }
 
-#instagram img{
-    grid-column: 1/2;
+#buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#instagram {
     background-color: #80adff;
     border-radius: 2em;
     color: #FFF;
+    margin: 20px;
+    word-spacing: 2em;
+    text-align: left;
 }
 
 
 #instagram img{
     height: 50px;
+    
+}
+
+#instagram a {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
-#email img{
-    grid-column: 2/3;
+#email {
     background-color: #80adff;
+    border-radius: 2em;
     color: #FFF;
+    margin: 20px;
 }
 
 #email img{
@@ -210,7 +215,9 @@ h2 {
 }
 
 
-
+.hidden {
+    display: none;
+}
 
 
 
