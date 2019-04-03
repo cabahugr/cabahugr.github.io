@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
+
+*d{ 
+    outline: 1px solid lime;
+}
+
+
+body {
+    background-color: white;
+    margin: 0;
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    font-family: 'Heebo', sans-serif;
+    }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.nav {
+    position: fixed;
+    background-color: #f4f6fe;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.logo img{
+    width: auto;
+    height: 50px;
+    
+}
+
+.links {
+    text-align: right;
+    padding-top: 10px;
+    font-size: 1.6rem;
+    word-spacing: 1.6rem;
+    
+}
+
+.links a {
+    color: #f3a7a9;
+    text-decoration: none;
+}
+
+#welcome {
+    padding: 40px;
+    padding-top: 75px;
+}
+
+#welcome img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#art {
+    height: 500px;
+    padding: 40px;
+    padding-top: 60px;
+    color: #80adff;
+    
+}
+
+#artgrid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#art h1 {
+    height: 50px;
+    
+}
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+#artgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    word-spacing
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#artgallery img {
+    width: 165px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+#blurb {
+    height: 400px;
+    padding-left: 20px;
+}
+
+
+#design {
+    height: 400px;
+    background-color: #f4f6fe;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    color: #80adff;
+}
+
+#design h1{
+    grid-column: 1/3;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+#koistudio {
+    background-image: url(img/koistudio.jpg);
+    background-size: 160%;
+    background-position: top center;
+    filter: blur(3px);
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+ a {
+    color: white;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    text-decoration: none;
+}
+
+h2 {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+#ekho {
+    background-image: url(img/ekho.jpg);
+    background-position: center;
+    filter: blur(3px);
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
