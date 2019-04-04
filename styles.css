@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 
 
-*{ 
+*d{ 
     outline: 1px solid lime;
 }
 
@@ -34,7 +34,7 @@ html {
 
 .logo img{
     width: auto;
-    height: 50px;
+    height: 55px;
     
 }
 
@@ -184,18 +184,14 @@ h2 {
     color: #FFF;
     margin: 20px;
     word-spacing: 1em;
-    margin-bottom: 30px;
-}
-
-#instagram a {
-    margin-bottom: 20px;
+    padding-bottom: auto;
+    padding-bottom: auto;
 }
 
 
 #instagram img{
-    height: 50px;
+    height: 30px;
     margin-top: 10px;
-    
 }
 
 
@@ -205,20 +201,20 @@ h2 {
     color: #FFF;
     margin: 20px;
     word-spacing: 1em;
-    margin-bottom: 30px;
+    padding-top: auto;
+    padding-bottom: auto;
 }
+
+
 
 #email img{
-    height: 50px;
+    height: 30px;
     margin-top: 10px;
 }
-
 
 .hidden {
     display: none;
 }
-
-
 
 
 
